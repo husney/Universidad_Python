@@ -39,13 +39,14 @@ class Persona:
         
     def getApellido(self):
         return self.__apellido
-
+  
     def setApellido(self, apellido):
         self.__apellido = apellido
     
 
 p1 = Persona("Sara", "Orrego")
 p1.mostrarDetalles()
+    
     
     
         
