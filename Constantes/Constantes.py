@@ -1,0 +1,1 @@
+TEXTO = "Soy una constante"
