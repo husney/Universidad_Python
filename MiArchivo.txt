@@ -1,0 +1,4 @@
+Escribiendo líneas
+Por medio de
+Una lista
+En python
