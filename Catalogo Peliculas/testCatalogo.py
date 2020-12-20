@@ -1,21 +1,15 @@
 from dominio.Pelicula import Pelicula
 from servicio.CatalogoPeliculas import CatalogoPeliculas
 
-
 usando = True
-
 
 def agregarPeliculaCatalogo():
     nombre = input("Nombre de la película: ")
     categoria = input("Categoria de la película: ")
-
     CatalogoPeliculas.agregar_pelicula(Pelicula(nombre, categoria))
-
 
 def listarPeliculas():
     CatalogoPeliculas.listar_peliculas()
-
-
     
 def eliminarCatalogo():
     CatalogoPeliculas.eliminar()
