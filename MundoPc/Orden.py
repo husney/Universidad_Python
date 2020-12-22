@@ -22,7 +22,7 @@ class Orden:
         return self.__idOrden
         
     def __str__(self):
-        datos = ""
+        datos = f"Orden { self.__idOrden}\n"
         for computadora in self.__computadoras:
             datos += computadora.__str__()
             

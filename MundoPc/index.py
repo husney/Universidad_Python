@@ -18,5 +18,5 @@ pComputador2 = Computadora("Computadora", pMonitor, pTeclado, pMouse)
 
 pOrden = Orden()
 pOrden.agregarComputadora(pComputador)
-pOrden.agregarComputadora(pComputador2)
+pOrden.agregarComputadora(pComputador2) 
 print(pOrden)
