@@ -1,0 +1,750 @@
+2020-12-24 21:30:58,016 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000002593C464FA0>]
+
+2020-12-24 21:30:58,017 DEBUG 
+file: [conexion.py] line: [37] message: [Conexion obtenida del pool <connection object at 0x000002593C74B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:32:03,160 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001D86D4FC3D0>]
+
+2020-12-24 21:32:03,161 DEBUG 
+file: [conexion.py] line: [37] message: [Conexion obtenida del pool <connection object at 0x000001D86BC1B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:32:08,883 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x00000207AB4B4FA0>]
+
+2020-12-24 21:32:08,884 DEBUG 
+file: [conexion.py] line: [37] message: [Conexion obtenida del pool <connection object at 0x00000207ABC5B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:32:49,801 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000022085F44FA0>]
+
+2020-12-24 21:32:49,802 DEBUG 
+file: [conexion.py] line: [37] message: [Conexion obtenida del pool <connection object at 0x000002208622A7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:33:04,006 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000021CEBE64FA0>]
+
+2020-12-24 21:33:04,007 DEBUG 
+file: [conexion.py] line: [37] message: [Conexion obtenida del pool <connection object at 0x0000021CEC60B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:33:13,315 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x000001F55AA84FA0>]
+
+2020-12-24 21:33:13,316 DEBUG 
+file: [conexion.py] line: [37] message: [Conexion obtenida del pool <connection object at 0x000001F55AD6B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:34:05,215 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000024738FF4FA0>]
+
+2020-12-24 21:34:05,217 DEBUG 
+file: [conexion.py] line: [38] message: [Conexion obtenida del pool <connection object at 0x00000247392DA7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:35:29,263 DEBUG 
+file: [conexion.py] line: [27] message: [Conexión exitosa <psycopg2.pool.SimpleConnectionPool object at 0x0000013B0D124FA0>]
+
+2020-12-24 21:35:29,263 DEBUG 
+file: [conexion.py] line: [38] message: [Conexion obtenida del pool <connection object at 0x0000013B0D40A7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:37:05,504 DEBUG 
+file: [2.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x000002543705B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:37:05,568 DEBUG 
+file: [2.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x000002543886E370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:37:05,570 DEBUG 
+file: [2.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x000002543705B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-24 21:37:05,585 DEBUG 
+file: [2.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000025436D75F70>]
+
+2020-12-24 21:37:05,586 DEBUG 
+file: [2.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x000002543886E370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 1>]
+
+2020-12-24 21:37:05,588 DEBUG 
+file: [2.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000025436D75F70>]
+
+2020-12-24 21:37:05,589 DEBUG 
+file: [2.py] line: [53] message: [Cerramos todas las conexiones del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000025436D75F70>]
+
+2020-12-25 09:43:05,372 DEBUG 
+file: [conexion.py] line: [29] message: [Se ha realizado el pool]
+
+2020-12-25 09:43:52,213 DEBUG 
+file: [conexion.py] line: [29] message: [Se ha realizado el pool]
+
+2020-12-25 09:44:13,718 DEBUG 
+file: [conexion.py] line: [29] message: [Se ha realizado el pool]
+
+2020-12-25 09:44:15,783 DEBUG 
+file: [conexion.py] line: [29] message: [Se ha realizado el pool]
+
+2020-12-25 09:45:30,302 DEBUG 
+file: [conexion.py] line: [28] message: [Se ha realizado el pool]
+
+2020-12-25 09:45:54,489 DEBUG 
+file: [conexion.py] line: [28] message: [Se ha realizado el pool]
+
+2020-12-25 09:46:33,280 DEBUG 
+file: [conexion.py] line: [28] message: [Se ha realizado el pool]
+
+2020-12-25 09:53:50,754 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002D0AF7EA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:06,222 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FD75D6B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:06,312 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FD75D6BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:09,957 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000205CC9CA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:10,034 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000205CC9CAAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:16,838 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000200C055B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:16,924 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000200C055BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:17,008 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000200C055BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:17,091 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000200C055BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:17,169 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000200C055BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:23,168 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001E804D5B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:23,256 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001E804D5BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:23,433 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001E804D5BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:23,512 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001E804D5BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:23,591 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001E804D5BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:28,459 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001CCCD1BB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:28,548 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001CCCD1BBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:28,632 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001CCCD1BBBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:28,717 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001CCCD1BBD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:28,804 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001CCCD1BBE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:30,202 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC2F93B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:30,314 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC2F93BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:30,408 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC2F93BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:30,510 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC2F93BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 09:54:30,621 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC2F93BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:11:44,090 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000019ADBD8B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:11:44,180 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000019ADBD8BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:11:44,266 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000019ADBD8BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:11:44,364 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000019ADBD8BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:11:44,561 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000019ADBD8BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:12,704 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002786F95B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:12,783 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002786F95BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:12,861 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002786F95BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:12,939 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002786F95BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:13,015 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002786F95BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:15,892 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000027DD3D9B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:16,079 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000027DD3D9BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:16,157 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000027DD3D9BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:16,242 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000027DD3D9BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:16,332 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000027DD3D9BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:50,583 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000028A0F35B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:50,664 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000028A0F35BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:50,748 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000028A0F35BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:50,824 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000028A0F35BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:12:50,911 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000028A0F35BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:13:00,488 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001BD6B3DB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:13:00,570 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001BD6B3DBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:13:00,647 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001BD6B3DBBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:13:00,725 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001BD6B3DBD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:13:00,802 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001BD6B3DBE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:14:22,229 DEBUG 
+file: [2.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x000002B637ECA7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:14:22,309 DEBUG 
+file: [2.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x000002B63970E370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:14:22,313 DEBUG 
+file: [2.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x000002B637ECA7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:14:22,315 DEBUG 
+file: [2.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002B637F14820>]
+
+2020-12-25 10:14:22,317 DEBUG 
+file: [2.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x000002B63970E370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 1>]
+
+2020-12-25 10:14:22,318 DEBUG 
+file: [2.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x000002B637F14820>]
+
+2020-12-25 10:15:07,631 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002693D23B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:07,712 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002693D23BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:07,788 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002693D23BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:07,873 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002693D23BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:07,981 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002693D23BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:23,246 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FBA924B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:23,352 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FBA924BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:23,462 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FBA924BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:23,566 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FBA924BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:23,644 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FBA924BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:36,906 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FC70F5B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:36,986 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FC70F5BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:37,064 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FC70F5BBF0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:37,161 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FC70F5BD00; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:37,260 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001FC70F5BE10; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:47,620 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002794C38B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:47,749 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002794C38BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:57,006 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000016106CCA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:15:57,087 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000016106CCAAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:16:43,433 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC9D68C590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:16:43,514 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000001DC9D68CAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:17:31,016 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000214500BC590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:17:31,107 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x00000214500BCAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:18:33,023 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002B1E743A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:18:33,103 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x000002B1E743AAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:18:54,158 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000029AAA9EB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:18:54,247 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000029AAA9EBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:19:00,970 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000020E7764B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:19:01,059 DEBUG 
+file: [conexion.py] line: [38] message: [Se ha creado la conexión <connection object at 0x0000020E7764BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:22:43,184 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000218CBABB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:22:43,277 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000218CBABBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:12,728 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000013BE736B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:12,918 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000013BE736BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:20,145 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000024891BBB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:20,238 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000024891BBBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:41,146 DEBUG 
+file: [2.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x0000022819A4B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:41,224 DEBUG 
+file: [2.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x000002281B25E370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:41,235 DEBUG 
+file: [2.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x0000022819A4B7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:23:41,236 DEBUG 
+file: [2.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000022819A94820>]
+
+2020-12-25 10:23:41,238 DEBUG 
+file: [2.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x000002281B25E370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 1>]
+
+2020-12-25 10:23:41,239 DEBUG 
+file: [2.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000022819A94820>]
+
+2020-12-25 10:25:05,090 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001856FB4B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:05,177 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001856FB4BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:05,955 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001B32092B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:06,135 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001B32092BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:06,750 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000002702F9EB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:06,839 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000002702F9EBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:07,395 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001919D8DB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:07,493 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001919D8DBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:07,944 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000018955D0B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:08,042 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000018955D0BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:20,840 DEBUG 
+file: [conexion.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x0000014CACBDA7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:20,923 DEBUG 
+file: [conexion.py] line: [39] message: [Conexión obtenida del pool: <connection object at 0x0000014CAE3FE370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:20,929 DEBUG 
+file: [conexion.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x0000014CACBDA7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:20,931 DEBUG 
+file: [conexion.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000014CACC25820>]
+
+2020-12-25 10:25:20,934 DEBUG 
+file: [conexion.py] line: [46] message: [Regresamos la conexion al pool: <connection object at 0x0000014CAE3FE370; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 1>]
+
+2020-12-25 10:25:20,935 DEBUG 
+file: [conexion.py] line: [47] message: [Estado del pool: <psycopg2.pool.SimpleConnectionPool object at 0x0000014CACC25820>]
+
+2020-12-25 10:25:23,954 DEBUG 
+file: [tempCodeRunnerFile.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000015D9F2DB590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:24,038 DEBUG 
+file: [tempCodeRunnerFile.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000015D9F2DBAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:32,834 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000214D197B590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:25:32,917 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000214D197BAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:11,574 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000002065541A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:11,683 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000002065541AAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:39,008 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001998480A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:39,092 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001998480AAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:45,421 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000015102BBA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:45,545 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000015102BBAAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:52,382 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000206CAC4A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:26:52,564 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000206CAC4AAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:27:00,423 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001F19CB2A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:27:00,506 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001F19CB2AAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:27:04,068 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000013957F0A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:27:04,262 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000013957F0AAE0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:28:24,705 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001512806A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:28:33,062 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001DB0852A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:28:40,386 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x00000248C63EA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:32:11,485 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000017C98F5A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:32:12,015 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000027BE0A4A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:32:12,868 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000018168D2A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:51:43,583 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x0000025C4BA2A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:51:59,514 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000002231259A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 10:52:05,928 DEBUG 
+file: [conexion.py] line: [39] message: [Se ha creado la conexión <connection object at 0x000001651931A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:03:16,700 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:03:26,312 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:03:42,472 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:04:21,928 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:04:21,929 INFO 
+file: [conexion.py] line: [38] message: [Conexión None]
+
+2020-12-25 11:04:25,546 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:04:25,562 INFO 
+file: [conexion.py] line: [38] message: [Conexión None]
+
+2020-12-25 11:04:50,757 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:04:53,921 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:05:03,055 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:05:24,174 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:07:25,407 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:07:52,159 INFO 
+file: [conexion.py] line: [29] message: [Pool creado]
+
+2020-12-25 11:15:59,338 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001E49AC8A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:20:31,428 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000019DE25BA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:20:38,355 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001C36E69A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:20:50,209 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000020FEE64A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:21:15,306 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000013E9C3DA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:32:06,959 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x00000223CE06A590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:32:06,964 INFO 
+file: [conexion.py] line: [49] message: [Todas las conexiones han regresado al pool]
+
+2020-12-25 11:51:12,517 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001D3242EA590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 11:51:12,519 INFO 
+file: [conexion.py] line: [49] message: [Todas las conexiones han regresado al pool]
+
+2020-12-25 15:25:37,459 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x00000268C0827590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 15:25:37,474 INFO 
+file: [conexion.py] line: [49] message: [Todas las conexiones han regresado al pool]
+
+2020-12-25 16:16:33,744 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000017C644BC590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:16:33,750 INFO 
+file: [conexion.py] line: [49] message: [Todas las conexiones han regresado al pool]
+
+2020-12-25 16:16:46,667 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000019BBF557590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:16:46,669 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:16:46,710 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:16:46,711 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:16:47,242 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000020F9DA0C590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:16:47,246 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:16:47,298 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:16:47,312 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:16:49,837 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001B6EBCAC590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:16:49,838 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:16:49,856 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:16:49,857 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:17:02,726 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001F57F76C590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:17:02,727 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:17:02,735 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:17:02,739 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:19:39,169 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000021D060EC590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:19:39,171 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:19:39,226 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:19:39,242 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:25:29,657 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000020EE02BC590; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:25:29,660 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:25:29,671 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:25:29,672 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:39:32,222 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001EB7F53F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:39:32,224 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:39:32,243 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:39:32,245 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:39:44,438 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000002D1D0F4F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:39:44,439 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:39:44,443 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:39:44,444 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:42:08,704 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001F3F986F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:42:08,706 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:42:08,715 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:42:08,716 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:53:03,556 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000001D51613F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:53:03,560 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:53:03,571 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:53:03,572 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:56:15,487 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x00000251BB66F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:56:15,489 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:56:15,506 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:56:15,508 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:57:00,243 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000021A77E6F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:57:00,245 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:57:00,273 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:57:00,286 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 16:57:09,942 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x0000021DE29AF7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 16:57:09,944 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 16:57:09,955 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 16:57:09,956 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
+2020-12-25 17:03:39,958 INFO 
+file: [conexion.py] line: [38] message: [Conexión establecida <connection object at 0x000002070AC3F7B0; dsn: 'user=postgres password=xxx dbname=testDb host=localhost port=5432', closed: 0>]
+
+2020-12-25 17:03:39,960 INFO 
+file: [cursorPool.py] line: [13] message: [Inicio de with]
+
+2020-12-25 17:03:39,963 INFO 
+file: [cursorPool.py] line: [17] message: [Ejecutando el fin del with]
+
+2020-12-25 17:03:39,970 INFO 
+file: [cursorPool.py] line: [23] message: [Se realiza commit en la DB]
+
