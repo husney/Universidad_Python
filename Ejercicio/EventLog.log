@@ -1,0 +1,25 @@
+ERROR 2020-12-26 09:19:23,007 
+File: [Cursor.py]
+Line: [23]
+Message: "No se guardaron los cambios en la Base de Datos <class 'psycopg2.errors.UndefinedTable'>"
+
+ERROR 2020-12-26 09:19:23,007 
+File: [UsuarioCrud.py]
+Line: [60]
+Message: "No se pudo actualizar el usuario UDPATE"
+
+ERROR 2020-12-26 10:00:30,103 
+File: [Cursor.py]
+Line: [23]
+Message: "No se guardaron los cambios en la Base de Datos <class 'TypeError'>"
+
+ERROR 2020-12-26 10:00:55,446 
+File: [Cursor.py]
+Line: [23]
+Message: "No se guardaron los cambios en la Base de Datos <class 'TypeError'>"
+
+ERROR 2020-12-26 10:02:15,990 
+File: [Cursor.py]
+Line: [23]
+Message: "No se guardaron los cambios en la Base de Datos <class 'TypeError'>"
+

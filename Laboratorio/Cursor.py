@@ -15,7 +15,7 @@ class Cursor:
         except Exception as ex:
             logger.error(f"Error al regresar el cursor {ex}")
 
-    def __exit__(self, exc_type, exc_val, exc_tb):
+    def __exit__(self, exc_type, exc_val,    exc_tb):
         try:
             if exc_type:
                 self.__conexion.rollback()
