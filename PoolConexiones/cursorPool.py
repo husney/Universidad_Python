@@ -13,7 +13,7 @@ class CursorPool:
         logger.info("Inicio de with")
         return self.__cursor 
 
-    def __exit__(self, exception_type, exception_value, exception_traceback  ):
+    def __exit__(self, exception_type, exception_value, exception_traceback):
         logger.info("Ejecutando el fin del with")
         if exception_type:
             self.__conexion.rollback()
