@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %} Servicios {% endblock %}
+{% block content %}
+    {% for servicio in servicios %}
+     <fieldset>
+         <legend>{{servicio.titulo}}</legend>
+         <div class="media mb-3">
+            <div class="media-left media-middle">
+                <a href="{{ url_for('servicio', id=servicio.id) }}">
+                    <img src="{{servicio.foto}}" alt="{{servicio.titulo}}" style="height: 200px; width: 200px; object-fit: cover;">
+                </a>
+            </div>
+            <div class="media-body ml-3">
+                <h4 class="media-heading">{{servicio.titulo}}</h4>
+                <p>{{servicio.detalle}}</p>
+            </div>
+        </div>
+     </fieldset>
+    {% endfor %}
+
+    
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Página de HOME</h1>
+
+<h2>Servicios</h2>
+<ul>
+    <li>
+        <a href="{{ url_for('servicioDetalle', service='Marketing-de-afiliados') }}">Marketing de afiliados</a>
+    </li>
+    <li>
+        <a href="{{ url_for('servicioDetalle', service='Programación') }}">Programación</a>
+    </li>
+</ul>
+ 
+<hr>
+
+<h2>Servicios 2</h2>
+<ul>
+    <li>
+        <a href="{{ url_for('servicios_dos', s1='Html', s2='Css') }}">Html y css</a>
+    </li>
+    <li>
+        <a href="{{ url_for('servicios_dos', s1='Python', s2='Flask') }}">Python y Flask</a>
+    </li>
+</ul>
+{% endblock %}

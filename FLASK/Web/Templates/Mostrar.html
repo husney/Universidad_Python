@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mostra valores</title>
+</head>
+<body>
+    <h1>Mostar Valores</h1>
+    <h2>Tu nombre es {{Nombre}}</h2>
+    {% if "H" in Nombre %}
+        <p>El nombre tiene H</p>
+    {% endif %}
+
+<div>
+    <a href="{{ url_for('Home') }}">Redireccionar</a>
+</div>
+
+</body>
+</html>

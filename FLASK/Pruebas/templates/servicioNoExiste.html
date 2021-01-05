@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %} El servicio no existe {% endblock %}
+
+{% block content %}
+<div class="jumbotron ">
+    <h1 class="display-4">Lo sentimos!</h1>
+    <p class="lead">El servicio no existe</p>
+    <div class="d-flex justify-content-center">
+        <img src="https://media1.tenor.com/images/4f6479e4f11785947324cd56f6a4c5f7/tenor.gif?itemid=14987203" alt="" style="width: 300px; height: 300px; object-fit: cover; border-radius: 30%">
+    </div>
+    <hr class="my-4">
+    <p>Puedes revisar todos nuestros servicios</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('servicios')}}" role="button">Servicios</a>
+  </div>
+{% endblock %}

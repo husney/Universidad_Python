@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %} Formulario Simple {% endblock %}
+
+{% block content %}
+    <form action="" method="POST" class="d-flex justify-content-center align-items-center flex-wrap flex-column" style="height: 50vh;">
+        
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre ..." class="form-control ">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email ..." class="form-control">
+        </div>
+
+        <div class="form-group">
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono ..." class="form-control ">
+        </div>
+
+        <div class="form-group">
+            <input type="submit" class="form-control btn btn-success mt-3">
+        </div>
+    </form>
+{% endblock %}
+ 

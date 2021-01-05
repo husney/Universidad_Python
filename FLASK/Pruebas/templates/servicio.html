@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} Servicio-{{servicio.titulo}} {% endblock %}
+
+{% block content %}
+<fieldset>
+    <legend>{{servicio.titulo}}</legend>
+    <div class="media mb-3">
+       <div class="media-left media-middle">
+           <img src="{{servicio.foto}}" alt="{{servicio.titulo}}" style="height: 200px; width: 200px; object-fit: cover;">
+       </div>
+       <div class="media-body ml-3">
+           <h4 class="media-heading">{{servicio.titulo}}</h4>
+           <p>{{servicio.detalle}}</p>
+       </div>
+   </div>
+</fieldset>
+{% endblock %}
