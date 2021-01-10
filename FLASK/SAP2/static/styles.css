@@ -1,0 +1,11 @@
+.p{
+    background: lightblue;
+}
+
+.error{
+    color: red;
+}
+
+td, th{
+    padding: 10px;
+}

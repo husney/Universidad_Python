@@ -54,7 +54,7 @@ def inicio():
     app.logger.debug(f'Número personas {totalPersonas}')
     return render_template('index.html', personas=personas, numeroPersonas = totalPersonas)
 
-@app.route('/ver/<int:id>', methods=['GET'])
+@app.route('/ ver/<int:id>', methods=['GET'])
 def verPersona(id):
     #persona = Persona.query.get(id) Puede lanzar un error en caso de que no exista
     #persona = Persona.query.get_or_404(id) #En caso de no encontrar el registro lanza el error 404 listo para el handler    

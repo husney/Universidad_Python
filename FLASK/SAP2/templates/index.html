@@ -1,0 +1,35 @@
+{% extends 'Base.html' %}
+
+{% block body %}
+    <h2>Personas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for persona in personas %}
+                <tr>
+                    <td>{{persona.id}}</td>
+                    <td>{{persona.nombre}}</td>
+                    <td>{{persona.apellido}}</td>
+                    <td>{{persona.email}}</td>
+                    <td><a href="{{ url_for('verPersona', id=persona.id) }}">Ver</a></td>
+                    <td><a href="{{ url_for('editar', id=persona.id) }}">Editar</a></td>
+                    <td><a href="{{ url_for('eliminar', id = persona.id) }}">Eliminar</a></td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+    <h5>Total Personas registradas: {{total}}</h5>
+    <h2><a href="{{ url_for('agregar') }}">Registrar Persona</a></h2>
+{% endblock %}

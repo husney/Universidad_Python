@@ -1,0 +1,14 @@
+{% extends 'Base.html' %}
+
+{% block body %}
+    <h2>{{persona.nombre}}</h2>
+    <ul>
+        <li>ID: {{persona.id}}</li>
+        <li>Nombre: {{persona.nombre}}</li>
+        <li>Apellido: {{persona.apellido}}</li>
+        <li>Email: {{persona.email}}</li>
+    </ul>
+    <div>
+        <a href="{{ url_for('index') }}">Regresar al inicio</a>
+    </div>
+{% endblock %}
